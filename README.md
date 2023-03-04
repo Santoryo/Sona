@@ -7,6 +7,9 @@ Works only on Windows.
 1. To use Sona out of the box you can download it from [Releases](https://github.com/Santoryo/Sona/releases)
 2. Sona uses lockfile to connect to [LCU API](https://hextechdocs.dev/getting-started-with-the-lcu-api/), the default installation for League of Legends is for `C:\Riot Games\League of Legends` if you have League installed in other place, please edit `config.ini` to your matching League of Legends installation
 
+![Screenshot1](https://i.imgur.com/Vvmjirm.png)
+![Screenshot2](https://i.imgur.com/SrLb4KC.png)
+
 ## Customization
 You might want to customize your status a little bit, it is possible with `config.ini` that is located in the installation directory.
 ``` ini
