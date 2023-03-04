@@ -1,5 +1,6 @@
 # Sona
 Sona takes your Spotify current song and displays it as your League status.
+Works only on Windows.
 
 
 ## Setup
