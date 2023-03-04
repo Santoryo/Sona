@@ -2,6 +2,7 @@
 Sona takes your Spotify current song and displays it as your League status.
 Works only on Windows.
 
+<a href='https://ko-fi.com/santoryo' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 ## Setup
 1. To use Sona out of the box you can download it from [Releases](https://github.com/Santoryo/Sona/releases)
