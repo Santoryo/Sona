@@ -1,5 +1,5 @@
 # Sona
-Sona takes your Spotify current song and displays it as your League status.
+Sona takes your Spotify / Tidal current song and displays it as your League status.
 Works only on Windows.
 
 <a href='https://ko-fi.com/santoryo' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
@@ -7,6 +7,7 @@ Works only on Windows.
 ## Setup
 1. To use Sona out of the box you can download it from [Releases](https://github.com/Santoryo/Sona/releases)
 2. Sona uses lockfile to connect to [LCU API](https://hextechdocs.dev/getting-started-with-the-lcu-api/), the default installation for League of Legends is for `C:\Riot Games\League of Legends` if you have League installed in other place, please edit `config.ini` to your matching League of Legends installation
+3. Sona will only get the info from Spotify / Tidal application that is installed on your computer. Please note that Sona will not work if you use Spotify / Tidal Web Player.
 
 ![Screenshot1](https://i.imgur.com/Vvmjirm.png)
 ![Screenshot2](https://i.imgur.com/SrLb4KC.png)
