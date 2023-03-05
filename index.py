@@ -18,6 +18,8 @@ from simple_colors import *
 
 import win32api
 
+import tidallib
+
 state = True
 
 
@@ -62,8 +64,14 @@ async def main(state):
 
     while state:
         config.read('config.ini', encoding='utf-8')
-        artist = spotilib.artist()
-        song = spotilib.song()
+
+        if(str(config["SETTINGS"]["Service"]) == "Spotify"):
+            artist = spotilib.artist()
+            song = spotilib.song()
+        elif(str(config["SETTINGS"]["Service"]) == "Tidal"):
+            artist = tidallib.artist()
+            song = tidallib.song()
+
         message = ""
 
 
@@ -107,10 +115,10 @@ async def main(state):
 
 
 
-async def showOnScreen(artist, song, message):
+async def showOnScreen(song, artist, message):
     if(song != "There is nothing playing at this moment"):
         os.system('cls')
-        print(f'Now playing: {green(artist)} - {green(song)}')
+        print(f'Now playing: {green(song)} {green("by")} {green(artist)}')
         print(f'If you wish to close the app and revert to original status, exit with CTRL+C')
         print(message)
     else:
