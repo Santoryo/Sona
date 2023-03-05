@@ -119,7 +119,7 @@ async def showOnScreen(song, artist, message):
     if(song != "There is nothing playing at this moment"):
         os.system('cls')
         print(f'Now playing: {green(song)} {green("by")} {green(artist)}')
-        print(f'If you wish to close the app and revert to original status, exit with CTRL+C')
+        print(f'If you wish to close the app and revert to original status, exit with {cyan("CTRL+C", "underlined")}')
         print(message)
     else:
         os.system('cls')
