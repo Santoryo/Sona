@@ -21,6 +21,7 @@ onMusicStopReverseStatus = False #if its True then it will reverse to original s
 formatStop = ⏸️ {artist} - {song} #if onMusicStopReverseStatus = False then formatStop is taken into the accountant
 updateTime = 1 #update time of statusMessage, 1-3 seconds are recommended
 LeaguePath = C:\Riot Games\League of Legends #League of Legends installation folder
+Service = Spotify #Available services: Spotify Tidal
 ```
 
 
